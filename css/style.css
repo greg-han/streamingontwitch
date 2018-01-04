@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css?family=Righteous);
+
+.main{
+ //display: //inline-block;
+}
+
+.fat-text{
+ text-align: center;
+ font-weight: 300;
+ font-size: 5em;
+ font-family: Righteous;
+ color: white;
+}
+
+body{
+ background-color: maroon !important;
+ color: black;
+}
+
+.logo{
+  max-width: 50px;
+  max-height: 50px;
+  border-radius: 50%;
+  border: 3px solid white;
+}
+
+.right{
+ color: white;
+ text-align: right;
+}
+
+.row{
+ color: white;
+}
+
+table {
+    font-family: Righteous;
+    color: white;
+    font-family: arial, sans-serif;
+    margin: 0 auto;
+}
+
+td, th {
+    font-family: Righteous;
+    color: white;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
